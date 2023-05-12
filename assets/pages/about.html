@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>About</title>
+	<link rel="icon" type="image/x-icon" href="../img/logo.png">
+	<script type="text/javascript" src="../js/jquery-3.6.4.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/aboutcss.css">
+</head>
+<body>
+	
+ <div id="homePage">
+
+ <img id="logo" src="../img/logo.png" alt="">
+  	<ul id="menu">
+			<li><a href="../../index.html"><button class="dako">Home</button></a></li>
+			<li><a href="#"><button class="dako">About</button></a></li>
+			<li><a href="services.html"><button class="dako">Products & Services</button></a></li>
+			<li><a href="event.html"><button class="dako">Events</button></a></li>
+			<li><a href="contact.html"><button class="dako">Contact</button></a></li>
+    </ul>
+
+  </div>
+
+  <div id="caption">
+
+  	<div class="capt"><h1>Discover</h1>
+       <p>Quality Service and Tasty Foods</p>
+  	</div>
+
+  </div>
+
+  <div id="sidePic">
+  	<div  id="first"><img src=" ../img/picD.jpg" class="side"></div>
+  	<div  id="second"><img src=" ../img/picA.jpg" class="side"></div>
+  	<div  id="third"><img src=" ../img/pic6.jpg" class="side" ></div>
+
+  </div>
+
+
+</div>
+
+
+	<div id="container">
+		
+		<table id="reviewContainer">
+	     
+	     <tr>
+	     	<td><div class="reviews">
+	     		<div class="top" id="postA"></div>
+	     		<button class="pic" id="personA"></button>
+	     		<h3> Ble Yorac </h3>
+	     		<p>Just feelin’ myself today!🖤 </p>
+
+	     	</div></td>
+	     	<td><div class="reviews">
+	     		<div class="top" id="postB"></div>
+	     		<button class="pic" id="personB"></button>
+	     		<h3> Joj and Jai Agpangan</h3>
+	     		<p>Thank you so much Joj and Jai Agpangan for visiting Creek Side Cafe</p>
+
+	     	</div></td>
+	     	<td><div class="reviews">
+	     		<div class="top" id="postC"></div>
+	     		<button class="pic" id="personC"></button>
+	     		<h3> JP Bosque</h3>
+	     		<p>The best place to tambay while you have your car squeaky clean  🧽 </p>
+
+	     	</div></td>
+	     </tr>
+
+	       <tr>
+	     	<td><div class="reviews">
+	     		<div class="top" id="postD"></div>
+	     		<button class="pic" id="personD"></button>
+	     		<h3> Shaira Mae Patnubay</h3>
+	     		<p>Must Visit💓🤞</p>
+
+	     	</div></td>
+	     	<td><div class="reviews">
+	     		<div class="top" id="postE"></div>
+	     		<button class="pic" id="personE"></button>
+	     		<h3> Jessa Mae Asprilla</h3>
+	     		<p> HERE AT - Creek Side - Carwash/Cafe </p>
+
+	     	</div></td>
+	     	<td><div class="reviews">
+	     		<div class="top" id="postF"></div>
+	     		<button class="pic"  id="personF"></button>
+	     		<h3> Hyacinth F-j</h3>
+	     		<p>Early bird at Creek Side - Carwash/Cafe.
+                        Their food and service is ❤️ 💯✔️</p>
+
+	     	</div></td>
+	     </tr>
+
+
+	      <tr>
+	     	<td><div class="reviews">
+	     		<div class="top" id="postG"></div>
+	     		<button class="pic" id="personG"></button>
+	     		<h3> Roy Genovia Jr.</h3>
+	     		<p>Good food and budget friendly meals while you wait for your wheels to be washed and cleaned. Nami tambayan. My go-to place during my stay in Iloilo. 😉</p>
+
+	     	</div></td>
+	     	<td><div class="reviews">
+	     		<div class="top" id="postH"></div>
+	     		<button class="pic" id="personH"></button>
+	     		<h3>Hérshéy Kíssés</h3>
+	     		<p> ✨The best place !!
+											✨ Good food ,
+										✨Affordable ,
+										✨Relaxing place,
+										✨And location is convenient
+										✨Accommodating  staff. </p>
+
+	     	</div></td>
+	     	<td><div class="reviews">
+	     		<div class="top" id="postI"></div>
+	     		<button class="pic"  id="personI"></button>
+	     		<h3> JamieBabe Espeleta</h3>
+	     		<p>I recommend yung foods nila sobrang sarap at yung service ay maganda♥️
+
+Relaxing atmosphere</p>
+	     	</div> </td>
+	     </tr>
+
+		</table>
+
+          
+	</div>
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+  $('.reviews').click(function() {
+    $(this).addClass('expanded');
+  });
+  
+  $('.reviews.expanded').click(function() {
+    $(this).removeClass('expanded');
+  });
+});
+
+
+
+
+
+	</script>
+</body>
+</html>

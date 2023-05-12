@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Event</title>
+	<link rel="stylesheet" type="text/css" href="../css/event.css">
+	<script type="text/javascript" src="../js/jquery-3.6.4.min.js"></script>
+</head>
+<body>
+<div id="container">
+
+  <div id="homePage">
+ 
+				  	<ul id="menu">
+							<li><a href="../../index.html"><button class="dako">Home</button></a></li>
+							<li><a href="about.html"><button class="dako">About</button></a></li>
+							<li><a href="aservices.html"><button class="dako">Products & Services</button></a></li>
+							<li><a href="#"><button class="dako">Events</button></a></li>
+							<li><a href="contacts.html"><button class="dako">Contact</button></a></li>
+				    </ul>
+
+				 
+
+				 <div id="textBox">
+
+				   <h1 align="center" id="capt"> News and Events</h1>
+
+				 </div>
+
+				
+
+
+
+
+  </div>
+
+<div id="secondContainer">
+
+ <div id="insideContainer">
+
+  <div id="upperContent">
+
+  	  <div id="upperText">
+
+  	 <h1 id="text">"Coffee, Carwash & Music: A Day of Sensory Delight!"</h1>
+      
+     </div>
+
+<div class="slideshow">
+  <div class="slides">
+    <img src="../eventImg/pic1.jpg">
+    <img src="../eventImg/pic6.jpg">
+    <img src="../eventImg/pic9.jpg">
+    <img src="../eventImg/pic12.jpg">
+    <img src="../eventImg/pic13.jpg">
+   
+  </div>
+  <button class="prev" class="btn">Back</button>
+  <button class="next" class="btn">Next</button>
+</div>
+
+<script type="text/javascript">
+	
+ $(document).ready(function() {
+  var slideIndex = 0;
+  showSlides();
+
+  $('.prev').click(function() {
+    plusSlides(-1);
+  });
+
+  $('.next').click(function() {
+    plusSlides(1);
+  });
+
+  function plusSlides(n) {
+    showSlides(slideIndex += n);
+  }
+
+  function showSlides() {
+    var slides = $('.slides img');
+    slideIndex++;
+    if (slideIndex > slides.length) {
+      slideIndex = 1;
+    }
+    if (slideIndex < 1) {
+      slideIndex = slides.length;
+    }
+    slides.hide();
+    slides.eq(slideIndex-1).show();
+    setTimeout(showSlides, 5000);
+  }
+});
+
+
+
+
+
+
+
+
+</script>
+
+</body>
+</html>

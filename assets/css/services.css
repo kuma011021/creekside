@@ -1,0 +1,1015 @@
+*{
+	margin:0px;
+	padding: 0px;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+    
+}
+
+
+#saka{
+	margin-left: -100px;
+}
+#logo{
+	float: left;
+	margin-left: 20px;
+	margin-top: 10px;
+	height: 100px;
+	width: auto;
+}
+#menu{
+	float: left;
+	margin-top: 50px;
+	font-weight: 600;
+	margin-left: 49%;
+}
+#menu li{
+	display: inline;
+	margin-right: 20px;
+}
+#menu li:hover{
+	cursor: pointer;
+}
+#menu li a{
+	text-decoration: none;
+	color: white;
+}
+#menu li:hover a{
+	text-decoration: underline;
+	
+}
+.dako{
+	background: none;
+	border: none;
+	color: white;
+	font-size: 18px;
+	border-radius: 5px;
+
+
+}
+.dako:hover{
+	transform: scale(1.2);
+	
+}
+#container{
+
+	width:100%;
+	height: 100%;
+	background-image: url(../img/backgroundservices.png);
+	background-size: cover;
+	
+}
+.reviews h3{
+	background-color: black;
+	border-radius: 30px;
+	margin-top: 340px;
+}
+
+.menuItems h3{
+	background-color: black;
+	border-radius: 30px;
+	margin-top: 240px;
+}
+
+
+.menuItems p{
+	background-color: black;
+	width: 50%;
+	border-radius: 30px;
+	margin-left: 75px;
+
+}
+
+
+
+#content {
+	width: 100%;
+	display: flex;
+	margin-top: 100px;
+
+	float: left;
+	
+	
+}
+
+
+.hexagon{
+	width: 300px;
+	height: 300px;
+}
+#drink{
+	width: 300px;
+	height: 300px;
+}
+#bite{
+	width: 300px;
+	height: 300px;
+}
+#liquor{
+	width: 300px;
+	height: 300px;
+}
+#carwash{
+	width: 300px;
+	height: 300px;
+}
+
+.hexagon:hover{
+	transform: scale(1.1);
+}
+
+
+
+.menubanner{
+	background-color: orange;
+	font-size: 50px;
+	width: 300px;
+	height: 60px;
+	border-radius: 30px;
+	align-self: center;
+	margin-left: 40%;
+}
+.menuname td{
+	height: 60px;
+}
+
+table {
+	background-color: gray;
+}
+.products{
+	width: 100%;
+	height: 100%;
+
+}
+
+
+#table{
+	width: 100%;
+	height: 520px;
+}
+
+.Container{
+
+	width: 100%;
+	height:100%;
+	border-collapse: collapse;
+	float: left;
+	
+	
+	
+}
+td{
+	 
+	 height: 500px;
+	 text-align: center;
+}
+
+.reviews{
+
+	width: 300px;
+	height: 400px;
+	background-color: blue;
+	color: white;
+	float: left;
+	margin-left: 80px;
+	border-radius: 50px;
+}
+.reviews:hover{
+	cursor: pointer;
+}
+
+
+
+p{
+	margin-top: 10px;
+}
+
+
+.back{
+	margin-left: 45.5%;
+	margin-bottom: 20px;
+	margin-top: 10px;
+	width: 150px;
+	height: 40px;
+	background: #724e2c;
+	border-radius: 35px;
+	border: none;
+}
+.back:hover{
+	cursor: pointer;
+}
+
+
+
+
+/*COFFEE*/
+
+
+#coffee{
+	background-image: url("../img/coffee.jpg");
+	background-size: cover; 
+
+}
+/*COFFEE MENU*/
+#americano{
+	background-image: url("../img/americano.jpg");
+	background-size: cover
+
+}
+#sweetblack{
+	background-image: url("../img/sweetblack.jpg");
+	background-size: cover
+
+}
+#cafelatte{
+	background-image: url("../img/cafelatte.jpg");
+	background-size: cover
+
+}
+#herecoffee{
+	background-image: url("../img/caramelmacchiato.jpg");
+	background-size: cover
+
+}
+#saltedcaramel{
+	background-image: url("../img/saltedcaramel.jpg");
+	background-size: cover
+
+}
+#coffeejelly{
+	background-image: url("../img/coffeejelly.jpg");
+	background-size: cover
+
+}
+#matchalatte{
+	background-image: url("../img/matchalatte.jpg");
+	background-size: cover
+
+}
+#chocolate{
+	background-image: url("../img/chocolate.jpeg");
+	background-size: cover
+
+}
+#nutellalatte{
+	background-image: url("../img/nutella.jpg");
+	background-size: cover
+
+}
+#cherry{
+	background-image: url("../img/cherry.jpg");
+	background-size: cover
+
+}
+#oreo{
+	background-image: url("../img/oreo.jpg");
+	background-size: cover
+
+}
+#brownsugar{
+	background-image: url("../img/brownsugar.jpg");
+	background-size: cover
+
+}
+#whitevelvet{
+	background-image: url("../img/whitevelvet.jpg");
+	background-size: cover
+
+}
+
+
+/*FRUIT*/
+#fruit{
+	background-image: url("../img/fruitydrinks.jpg");
+	background-size: cover; 
+}
+
+/*FRUITMENU*/
+#ironman{
+	background-image: url("../img/ironman.jpg");
+	background-size: cover
+
+}
+#thanos{
+	background-image: url("../img/thanos.jpg");
+	background-size: cover
+
+}
+#captainamerica{
+	background-image: url("../img/captain.jpg");
+	background-size: cover
+
+}
+#herefruit{
+	background-image: url("../img/hulk.jpg");
+	background-size: cover
+
+}
+#lemonade{
+	background-image: url("../img/lemonade.jpg");
+	background-size: cover
+
+}
+#honeycitron{
+	background-image: url("../img/honey.jpg");
+	background-size: cover
+
+}
+#cucumber{
+	background-image: url("../img/cucumber.jpg");
+	background-size: cover
+
+}
+#cocacola{
+	background-image: url("../img/cocacola.jpg");
+	background-size: cover
+
+}
+#bottledwater{
+	background-image: url("../img/tubig.jpg");
+	background-size: cover
+
+}
+
+/*MILKTEA*/
+#milktea{
+	background-image: url("../img/milktea.jpg");
+	background-size: cover; 
+
+}
+
+/*MILKTEAMENU*/
+
+#classic{
+	background-image: url("../img/classic.jpg");
+	background-size: cover
+
+}
+#okinawa{
+	background-image: url("../img/okinawa.jpg");
+	background-size: cover
+
+}
+#hokkaido{
+	background-image: url("../img/hokkaido.jpg");
+	background-size: cover
+
+}
+#heremilk{
+	background-image: url("../img/wintermelon.jpg");
+	background-size: cover
+
+}
+#macha{
+	background-image: url("../img/macha.jpg");
+	background-size: cover
+
+}
+#taro{
+	background-image: url("../img/taro.jpg");
+	background-size: cover
+
+}
+
+/*APPETIZER*/
+#vegetables{
+	background-image: url("../img/vegetables.jpg");
+	background-size: cover; 
+
+}
+
+
+/*APPETIZER MENU*/
+#fish{
+	background-image: url("../img/kinilaw.jpg");
+	background-size: cover
+}
+
+#shrimp{
+	background-image: url("../img/shrimp kinilaw.jpg");
+	background-size: cover
+}
+#cchapsuey{
+	background-image: url("../img/chickenchop.jpg");
+	background-size: cover
+}
+#schapsuey{
+	background-image: url("../img/seafoodchop.jpg");
+	background-size: cover
+}
+#hereappetizer{
+	background-image: url("../img/steamedbroc.jpg");
+	background-size: cover
+}
+
+/*CHICKEN AND PORK*/
+
+#chicken{
+	background-image: url("../img/chicken.jpg");
+	background-size: cover
+}
+
+/*CHICKEN AND PORK MENU*/
+#sinigang{
+	background-image: url("../img/SINIGANG.jpg");
+	background-size: cover
+}
+
+#sisig{
+	background-image: url("../img/SISIG.jpg");
+	background-size: cover
+}
+
+#lumpia{
+	background-image: url("../img/SPRING ROLLS.jpg");
+	background-size: cover
+}
+
+#herechicken{
+	background-image: url("../img/KARE KARE LIEMPO.jpg");
+	background-size: cover
+}
+
+#crispy{
+	background-image: url("../img/CRISPY PATA.jpg");
+	background-size: cover
+}
+
+#ribs{
+	background-image: url("../img/BABY BACK RIBS.jpg");
+	background-size: cover
+}
+
+#bbq{
+	background-image: url("../img/PORK BBQ.jpg");
+	background-size: cover
+}
+
+#butter{
+	background-image: url("../img/BUTTERED SHIKEN.jpg");
+	background-size: cover
+}
+
+#wings{
+	background-image: url("../img/BUFFALO WINGS.jpg");
+	background-size: cover
+}
+
+#binakol{
+	background-image: url("../img/BINAKOL.jpg");
+	background-size: cover
+}
+
+
+/*SEAFOOD*/
+
+#seafood{
+	background-image: url("../img/seafoods.jpg");
+	background-size: cover
+}
+
+/* SEAFOODMENU*/
+#fsinigang{
+	background-image: url("../img/FISH SINIGANG.jpg");
+	background-size: cover
+}
+
+#ssinigang{
+	background-image: url("../img/SHRIMP SINIGANG.jpg");
+	background-size: cover
+}
+
+#tanigue{
+	background-image: url("../img/GRILLED TANIGUE.jpg");
+	background-size: cover
+}
+
+#hereseafood{
+	background-image: url("../img/GARLIC BUTTERED SHRIMP.jpg");
+	background-size: cover
+}
+
+#tempura{
+	background-image: url("../img/TEMPURA.jpg");
+	background-size: cover
+}
+
+#calamares{
+	background-image: url("../img/CALAMARES.jpg");
+	background-size: cover
+}
+
+#squidhead{
+	background-image: url("../img/SQUID HEAD.jpg");
+	background-size: cover
+}
+
+#grilledsquid{
+	background-image: url("../img/GRILLED SQUID.jpg");
+	background-size: cover
+}
+
+#ssfish{
+	background-image: url("../img/SWEET AND SOUR FISH.jpeg");
+	background-size: cover
+}
+
+/*SET MEAL*/
+#setmeal{
+	background-image: url("../img/setmeals.jpg");
+	background-size: cover
+}
+
+/*SETMEALMENU*/
+#setsisig{
+	background-image: url("../img/porksisig.jpg");
+	background-size: cover
+}
+
+#bsisig{
+	background-image: url("../img/BUTTERED SISIG.jpg");
+	background-size: cover
+}
+
+#bbribs{
+	background-image: url("../img/BABY BACK RIBS.jpg");
+	background-size: cover
+}
+
+#hereset{
+	background-image: url("../img/PORK BBQ.jpg");
+	background-size: cover
+}
+
+#ssfish{
+	background-image: url("../img/SWEET AND SOUR FISH.jpeg");
+	background-size: cover
+}
+/* PASTA*/
+#pasta{
+	background-image: url("../img/pasta.jpg");
+	background-size: cover
+}
+/*PASTA MENU*/
+#lasagna{
+	background-image: url("../img/LASAGNA.jpg");
+	background-size: cover
+}
+
+#baked{
+	background-image: url("../img/BAKED.jpg");
+	background-size: cover
+}
+
+#carbonara{
+	background-image: url("../img/CARBONARA.jpg");
+	background-size: cover
+}
+
+#herepasta{
+	background-image: url("../img/BIHON SOLO.jpg");
+	background-size: cover
+}
+
+#bihonfam{
+	background-image: url("../img/BIHON FAMILY.jpg");
+	background-size: cover
+}
+/*PICKA*/
+
+#picka{
+	background-image: url("../img/picka.jpg");
+	background-size: cover
+}
+
+/*PICKA MENU*/
+#nachos{
+	background-image: url("../img/NACHOS.jpg");
+	background-size: cover
+}
+
+#fries{
+	background-image: url("../img/FRIES.jpg");
+	background-size: cover
+}
+
+#overload{
+	background-image: url("../img/OVERLOAD FRIES.jpg");
+	background-size: cover
+}
+
+#herepicka{
+	background-image: url("../img/MOJOS.jpg");
+	background-size: cover
+}
+
+#fc{
+	background-image: url("../img/FISH AND CHIPS.jpg");
+	background-size: cover
+}
+/*sandwiches*/
+#sandwiches{
+	background-image: url("../img/sandwich.jpeg");
+	background-size: cover
+}
+/*sandwichesmenu*/
+	#hc{
+	background-image: url("../img/HAM AND CHEESE.jpg");
+	background-size: cover
+}
+
+#gc{
+	background-image: url("../img/GRILLED CHEESE.jpg");
+	background-size: cover
+}
+
+#club{
+	background-image: url("../img/CLUBHOUSE.jpg");
+	background-size: cover
+}
+
+#heresandwich{
+	background-image: url("../img/CHICKEN ALA.jpg");
+	background-size: cover
+}
+
+#delux{
+	background-image: url("../img/C DELUXe.jpg");
+	background-size: cover
+}
+/*CREPES*/
+
+#crepes{
+	background-image: url("../img/crepe.jpg");
+	background-size: cover
+}
+
+/*CREPESMENU*/
+#nutella{
+	background-image: url("../img/NUTELLAA.jpg");
+	background-size: cover
+}
+
+#banana{
+	background-image: url("../img/BANANA NUTELLA.jpg");
+	background-size: cover
+}
+
+#circle{
+	background-image: url("../img/OREO OBSESSION.jpg");
+	background-size: cover
+}
+#herecrepe{
+	background-image: url("../img/UBE CREPE.jpeg");
+	background-size: cover
+}
+#strawberry{
+	background-image: url("../img/STRAWBERRY.jpg");
+	background-size: cover
+}
+
+/*LIQOUR*/
+
+#beer{
+	background-image: url("../img/beer.jpeg");
+	background-size: cover
+}
+
+#smlight{
+	background-image: url("../img/sml.png");
+	background-size: cover
+}
+
+#smpilsen{
+	background-image: url("../img/smpilsen.jpg");
+	background-size: cover
+}
+
+#smapple{
+	background-image: url("../img/smapple.jpg");
+	background-size: cover
+}
+
+#herebeer{
+	background-image: url("../img/rhstallion.jpg");
+	background-size: cover
+}
+
+#smirnoff{
+	background-image: url("../img/smirnoff.png");
+	background-size: cover
+}
+
+
+#rum{
+	background-image: url("../img/rum.jpeg");
+	background-size: cover
+}
+
+#solera{
+	background-image: url("../img/solera.jpg");
+	background-size: cover
+}
+#light{
+	background-image: url("../img/light.jpg");
+	background-size: cover
+}
+#alhambra{
+	background-image: url("../img/alhambra.jpg");
+	background-size: cover
+}
+#hererum{
+	background-image: url("../img/alfonso.jpg");
+	background-size: cover
+}
+#alfonsolight{
+	background-image: url("../img/alfonsolight.jpg");
+	background-size: cover
+}
+#jimbeam{
+	background-image: url("../img/jimbeam.jpg");
+	background-size: cover
+}
+
+
+#tequila{
+	background-image: url("../img/tequila.jpeg");
+	background-size: cover
+}
+
+#jose{
+	background-image: url("../img/750.jpg");
+	background-size: cover
+}
+#heretequila{
+	background-image: url("../img/1l.jpg");
+	background-size: cover
+}
+#hombre{
+	background-image: url("../img/hombre.jpg");
+	background-size: cover
+}
+
+#whiskey{
+	background-image: url("../img/whiskey.jpeg");
+	background-size: cover
+}
+
+#jackblack{
+	background-image: url("../img/jackblack.jpg");
+	background-size: cover
+}
+#blacklabel{
+	background-image: url("../img/blacklabel.jpg");
+	background-size: cover
+}
+
+#doubleblack{
+	background-image: url("../img/doubleblack.jpg");
+	background-size: cover
+}
+
+#herewhiskey{
+	background-image: url("../img/redlabel.jpg");
+	background-size: cover
+}
+#cocktail{
+	background-image: url("../img/cocktail.jpeg");
+	background-size: cover
+}
+
+#tower{
+	background-image: url("../img/tower.jpg");
+	background-size: cover
+}
+#herecocktail{
+	background-image: url("../img/rumcola.jpg");
+	background-size: cover
+}
+#mojito{
+	background-image: url("../img/mojito.jpg");
+	background-size: cover
+}
+
+
+
+#sedan{
+	background-image: url("../img/sedan.jpg");
+	background-size: cover
+}
+
+#pickup{
+	background-image: url("../img/pick-up.jpg");
+	background-size: cover
+}
+
+#minisuv{
+	background-image: url("../img/minisuv.jpg");
+	background-size: cover
+}
+
+#suvvan{
+	background-image: url("../img/van.jpg");
+	background-size: cover
+}
+
+#jeep{
+	background-image: url("../img/jeep.jpg");
+	background-size: cover
+}
+
+#motor{
+	background-image: url("../img/motor.jpg");
+	background-size: cover
+}
+
+
+
+.menuItems{
+	width: 300px;
+	height: 300px;
+	background-color: black;
+	color: white;
+	float: left;
+	margin-left: 80px;
+	margin-right: 70px;
+	border-radius: 50px;
+}
+.menuItems:hover{
+	cursor: pointer;
+
+}
+
+#menuContainerCoffee td{
+	height: 350px;
+	
+	align-items: center;
+}
+
+
+
+#menuContainerFruit td{
+	height: 350px;
+	
+	align-items: center;
+	
+}
+
+#menuContainerMilk td{
+	height: 350px;
+	
+	align-items: center;
+}
+
+#menuContainerAppetizer td{
+	height: 350px;
+	
+	align-items: center;
+}
+
+#menuContainerChicken td{
+	height: 350px;
+	
+	align-items: center;
+}
+#menuContainerSeafood td{
+	height: 350px;
+	align-items: center;
+}
+
+
+#menuContainerSet td{
+	height: 350px;
+	align-items: center;
+}
+
+#menuContainerPasta td{
+	height: 350px;
+	align-items: center;
+}
+
+#menuContainerPicka td{
+	height: 350px;
+	align-items: center;
+}
+#menuContainerSandwich td{
+	height: 350px;
+	align-items: center;
+}
+#menuContainerCrepe td{
+	height: 350px;
+	align-items: center;
+}
+
+#menuContainerBeer td{
+	height: 350px;
+	align-items: center;
+}
+
+#menuContainerCocktail td{
+	height: 350px;
+	align-items: center;
+}
+
+#menuContainerWhiskey td{
+	height: 350px;
+	align-items: center;
+}
+
+#menuContainerRum td{
+	height: 350px;
+	align-items: center;
+}
+
+#menuContainerTequila td{
+	height: 350px;
+	align-items: center;
+}
+
+
+
+#menuContainerSedan td{
+	height: 350px;
+	align-items: center;
+}
+#menuContainerPickup td{
+	height: 350px;
+	align-items: center;
+}
+#menuContainerMinipickup td{
+	height: 350px;
+	align-items: center;
+}
+#menuContainerSuv td{
+	height: 350px;
+	align-items: center;
+}
+#menuContainerJeep td{
+	height: 350px;
+	align-items: center;
+}
+#menuContainerMotor td{
+	height: 350px;
+	align-items: center;
+}
+
+#cart{
+	width: 300px;
+	height: 400px;
+	background-color: white;
+	margin-left: 72%;
+	margin-top: -300px;
+	position: absolute;
+	text-align: center;
+	border-radius: 10px;
+}
+#cart h3{
+	text-align: center;
+}
+#cart li{
+	list-style: none;
+	text-align: left;
+
+}
+#cartbtn{
+	width: 100px;
+	height: 100px;
+	margin-left: 90%;
+	margin-top: 40px;
+	position: relative;
+}
+#cartbtn:hover{
+	transform: scale(1.1);
+}
+
+#serviceItemSedan h3{
+	margin-top: 120px;
+}
+
+#serviceItemPickup h3{
+	margin-top: 120px;
+}
+
+#serviceItemMinipickup h3{
+	margin-top: 120px;
+}
+
+#serviceItemSuv h3{
+	margin-top: 120px;
+}
+
+#serviceItemJeep h3{
+	margin-top: 120px;
+}
+
+#serviceItemMotor h3{
+	margin-top: 120px;
+}

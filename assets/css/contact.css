@@ -1,0 +1,95 @@
+*{
+	margin: 0px;
+	padding: 0px;
+
+
+}
+
+#container{
+
+	width: 100%;
+	height: auto;
+	background: #CBE4DE;
+	
+}
+#homePage{
+	float: left;
+	width: 100%;
+	height: 70vh;
+	background-size: cover;
+	position: relative;
+	background-image: url('../img/contact.jpg');
+	
+}
+#menu{
+	float: left;
+	margin-top: 30px;
+	font-weight: 600;
+	margin-left: 55%;
+}
+#menu li{
+	display: inline;
+	margin-right: 20px;
+}
+#menu li a{
+	text-decoration: none;
+}
+
+.dako{
+	background: none;
+	border: none;
+	color: #2C3333;
+	font-size: 20px;
+	border-radius: 5px;
+}
+.dako:hover{
+	transform: scale(1.2);
+	background: none;
+}
+
+#infoBox{
+
+	width: 88%;
+	height: auto;
+   position: absolute;
+   top: 348px;
+   left: 163px;
+	
+}
+.box{
+	display: inline;
+	background-color: #2E4F4F;
+	border-radius: 50px;
+	float: left;
+	width: 500px;
+	height: 284px;
+	margin-right: 40px;
+	color: #CBE4DE;
+}
+#box1{
+	width: 100px;
+	height: auto;
+	margin-top: 40px;
+	margin-bottom: 10px;
+
+}
+#box2{
+	width: 100px;
+	height: auto;
+	margin-top: 40px;
+    margin-bottom: 10px;
+	
+}
+#locate{
+	clear: left;
+	width: 1000px;
+	height: auto;
+}
+#maps{
+	margin-top: 20px;
+	border: 1px solid black;
+	border-radius: 20px;
+}
+.hover:hover{
+	transform: scale(1.1);
+}
